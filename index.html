@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Login Page</title>
+  </head>
+
+  <body>
+    <img class="logo" src="Images/logo.png" alt="" />
+    <img src="Images/batting.png" class="bg-img" alt="" />
+    <div class="main-container">
+      <div class="welcome-message">
+        <h2>Welcome to</h2>
+        <h1>Cricket Club</h1>
+        <p class="welcome-para">
+          If you dont have an account registered <br />
+          You can <span class="register-option">register here</span> register
+          here
+        </p>
+        <p class="reg-user-para remove">
+          If you already have an account registered <br />
+          You can <span class="register-option">login</span> here.
+        </p>
+      </div>
+      <div class="login-div">
+        <div class="login">
+          <h2>Sign in</h2>
+          <input
+            type="text"
+            id="login-id"
+            placeholder="Enter email or username"
+          /><br />
+          <input type="password" id="password" placeholder="Password" /><i
+            class="fa fa-eye lg"
+            aria-hidden="true"
+          ></i
+          ><i class="fa fa-eye-slash lg remove" aria-hidden="true"></i><br />
+          <p class="forgot">Forgot Password?</p>
+          <button class="btn">Login</button>
+          <p class="continue">or continue with</p>
+          <div class="login-options">
+            <a href="#"><i class="fa-brands fa-facebook fa-2x"></i></a>
+            <a href="#"><i class="fa-brands fa-apple fa-2x"></i></a>
+            <a href="#"><i class="fa-brands fa-apple fa-2x"></i></a>
+          </div>
+        </div>
+
+        <div class="sign-up remove">
+          <h2>Sign Up</h2>
+          <input type="text" id="login-id" placeholder="Enter email" /><br />
+          <input
+            type="text"
+            id="username"
+            placeholder="Create username"
+          /><br />
+          <input type="text" id="contact" placeholder="Contact number" /><br />
+          <input type="password" id="passwordtry" placeholder="Password" /><i
+            class="fa fa-eye pt"
+            aria-hidden="true"
+          ></i
+          ><i class="fa fa-eye-slash pt remove" aria-hidden="true"></i><br />
+          <input
+            type="password"
+            id="passwordfinal"
+            placeholder="Confirm Password"
+          /><i class="fa fa-eye pf" aria-hidden="true"></i
+          ><i class="fa fa-eye-slash pf remove" aria-hidden="true"></i><br />
+          <button class="btn">Register</button>
+          <p class="continue">or continue with</p>
+          <div class="login-options">
+            <a href="#"><i class="fa-brands fa-facebook fa-2x"></i></a>
+            <a href="#"><i class="fa-brands fa-apple fa-2x"></i></a>
+            <a href="#"><i class="fa-brands fa-apple fa-2x"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
