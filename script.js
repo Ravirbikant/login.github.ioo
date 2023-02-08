@@ -54,5 +54,6 @@ $(".pf").click(function () {
 });
 
 /* 
-Check inputs validity
+1.Check inputs validity
+2.bg-img for responsiveness
 */
